@@ -1,0 +1,20 @@
+package com.course.groups;
+
+import org.testng.annotations.Test;
+
+/**
+ * Created by HFJY on 2020-12-2.
+ */
+
+@Test(groups = "teacher")
+public class GroupsOnClass3 {
+
+    public void teacher1(){
+        System.out.println("GroupsOnClass3中的teacher1运行");
+    }
+
+    public void teacher2(){
+        System.out.println("GroupsOnClass3中的teacher2运行");
+    }
+
+}
