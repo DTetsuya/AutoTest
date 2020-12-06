@@ -11,3 +11,4 @@ target/
 *.iws
 *.ipr
 .idea/
+startupWithCookies.json
